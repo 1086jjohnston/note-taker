@@ -1,0 +1,24 @@
+{
+  "name": "miniature-eureka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/1086jjohnston/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1086jjohnston/note-taker/issues"
+  },
+  "homepage": "https://github.com/1086jjohnston/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
