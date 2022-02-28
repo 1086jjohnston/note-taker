@@ -8,7 +8,7 @@ const database = require("./Develop/db/db")
 var app = express();
 var PORT = process.env.PORT || 3001;
 
-app.use(express.static('public'));
+app.use(express.static('./Develop/public'));
 
 //parses data
 app.use(express.urlencoded({ extended: true }));
@@ -20,7 +20,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "/public/notes.html"));
+    res.sendFile(path.join(__dirname, "./Develop/public/notes.html"));
 })
 
 //API routes
